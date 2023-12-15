@@ -1,10 +1,10 @@
 node{
     
-stage('for clone java project ') {
+stage('clone my java project ') {
  git 'https://github.com/maha4dsvc/mahalogin.git'
 }  
 
-stage('execute java project') {
+stage('execute mahalogin java project') {
    sh 'mvn install'
 }
     
